@@ -1,2 +1,4 @@
 <router-outlet></router-outlet>
-<app-home></app-home>
+
+<button (click)="toggle()">Toggle</button>
+<app-home *ngIf="show"></app-home>
